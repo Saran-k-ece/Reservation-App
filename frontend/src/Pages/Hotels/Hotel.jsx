@@ -72,7 +72,7 @@ const Hotel = () => {
                 excellent location score of 9.8!
               </span>
               <h2>
-                <b>₹8945</b> (9 nights)
+                <b>₹8945</b> (3 nights)
               </h2>
               <button>Reserve or Book Now!</button>
             </div>

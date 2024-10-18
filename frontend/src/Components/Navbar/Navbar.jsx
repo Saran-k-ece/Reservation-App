@@ -44,7 +44,7 @@ const Navbar = ({setShowLogin}) => {
               <a className="nav-link" href="https://www.makemytrip.com/cabs/">Cab</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/holidays">Holidays</a>
+              <a className="nav-link" href="./holidays">Holidays</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="https://www.makemytrip.com/forex/">Forex</a>
