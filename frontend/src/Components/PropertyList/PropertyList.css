@@ -223,3 +223,41 @@
     }
 }
 
+
+@media (max-width: 768px) {
+    .guest-loves {
+        padding: 8px;
+        grid-template-columns: 1fr;
+    }
+
+    .guest-loves h1 {
+        font-size: 32px;
+    }
+
+    .guest-loves-items {
+        max-width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .guest-loves-items img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hotel-content p {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .guest-loves h1 {
+        font-size: 28px;
+    }
+
+    .hotel-content p {
+        font-size: 12px;
+        padding: 6px;
+    }
+}
+

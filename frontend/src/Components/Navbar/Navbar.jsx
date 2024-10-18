@@ -47,10 +47,10 @@ const Navbar = ({setShowLogin}) => {
               <a className="nav-link" href="/holidays">Holidays</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Forex</a>
+              <a className="nav-link" href="https://www.makemytrip.com/forex/">Forex</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Insurance</a>
+              <a className="nav-link" href="https://www.makemytrip.com/insurance">Insurance</a>
             </li>
           </ul>
           <button className="btn btn-outline-success " type="button" onClick={() => setShowLogin(true)}>
