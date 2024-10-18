@@ -264,91 +264,27 @@
     }
 }
 
+   
 @media (max-width: 600px) {
-    .header {
-        flex-direction: column;
-        padding: 0 10px;
-    }
-
-    .custom-swiper {
-        height: 300px;
-    }
-
-    .custom-slide img {
-        height: 300px;
-    }
-
-    .swiper-content h1 {
-        font-size: 1.5rem;
-    }
-
-    .swiper-content p {
-        font-size: 14px;
-    }
-
     .headerSearch {
         width: 90vw;
-        margin-top: 150px;
-        padding: 8px;
-        height: auto;
+        padding: 10px;
         flex-direction: column;
         gap: 10px;
-        align-items: flex-start;
     }
 
     .headerSearchItem {
-        flex-direction: column;
         width: 100%;
-        gap: 10px;
     }
 
     .headerSearchItem input {
-        width: 100%;
-        height: 40px;
-        font-size: 14px;
-        padding: 10px;
-    }
-
-    .headerSearchItem .btn1 {
-        width: 100%;
-        height: 40px;
-        font-size: 16px;
-        padding: 12px;
-    }
-
-    .headerSearchText, .headerIcon {
-        font-size: 12px;
-    }
-
-    .options {
-        margin-top: 80px;
-        padding: 10px;
-    }
-
-    .optionItem {
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 10px 5px;
-    }
-
-    .optionCounterButton {
-        width: 28px;
-        height: 28px;
-        font-size: 12px;
-    }
-
-    .optionCounterNumber {
+        height: 35px;
         font-size: 14px;
     }
 
     .btn1 {
         width: 100%;
-        padding: 12px;
+        padding: 10px;
         font-size: 14px;
-    }
-
-    .swiper-pagination-bullet {
-        width: 8px;
-        height: 8px;
     }
 }
