@@ -2,7 +2,7 @@
     width: 95%;
     max-width: 1200px;
     height: auto;
-    background-color: #2d4a2d; /* Dark green background */
+    background-color: #2d4a2d;
     margin: 20px auto;
     border-radius: 10px;
     padding: 20px;
@@ -49,14 +49,14 @@
 
 .input input:focus {
     outline: none;
-    border-color: #9bcf6b; /* Light green on focus */
+    border-color: #9bcf6b;
 }
 
 .input button {
     padding: 10px 20px;
     font-size: 1.125rem;
     border-radius: 20px;
-    background-color: #9bcf6b; /* Light green button */
+    background-color: #9bcf6b;
     color: white;
     border: none;
     cursor: pointer;
@@ -64,7 +64,7 @@
 }
 
 .input button:hover {
-    background-color: #7fb257; /* Darker green on hover */
+    background-color: #7fb257;
 }
 
 .email-condition {
@@ -78,13 +78,13 @@
 #check {
     width: 20px;
     height: 20px;
-    accent-color: #9bcf6b; /* Light green checkbox */
+    accent-color: #9bcf6b;
 }
 
 hr {
     border: none;
     height: 2px;
-    background-color: #9bcf6b; /* Light green divider */
+    background-color: #9bcf6b;
     width: 80%;
     margin: 20px auto;
 }
@@ -93,7 +93,7 @@ hr {
     padding: 10px 20px;
     font-size: 1.125rem;
     border-radius: 20px;
-    background-color: #9bcf6b; /* Light green button */
+    background-color: #9bcf6b;
     color: white;
     border: none;
     cursor: pointer;
@@ -161,4 +161,3 @@ hr {
         font-size: 1rem;
     }
 }
-
