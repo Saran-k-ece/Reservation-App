@@ -228,43 +228,42 @@
 
 @media (max-width: 1024px) {
     .headerSearch {
-      flex-direction: column;
-      gap: 15px;
-      align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
     }
-  
+
     .headerSearchItem {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
-  
+
     .headerIcon {
-      font-size: 18px;
+        font-size: 18px;
     }
-  
+
     .headerSearchText {
-      font-size: 14px;
+        font-size: 14px;
     }
-  
+
     .options {
-      padding: 10px;
-      gap: 10px;
+        padding: 10px;
+        gap: 10px;
     }
-  
+
     .optionCounterButton {
-      font-size: 14px;
-      padding: 8px;
+        font-size: 14px;
+        padding: 8px;
     }
-  
+
     .btn1 {
-      font-size: 16px;
-      padding: 10px 20px;
+        font-size: 16px;
+        padding: 10px 20px;
     }
 }
 
-   
 @media (max-width: 600px) {
     .headerSearch {
         width: 90vw;
