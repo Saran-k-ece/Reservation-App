@@ -243,3 +243,104 @@
         margin-top: 100px;
     }
 }
+
+/* For Tablets (Screen width between 600px to 1024px) */
+@media (max-width: 1024px) {
+    .headerSearch {
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+    }
+  
+    .headerSearchItem {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .headerIcon {
+      font-size: 18px; /* Reduce icon size */
+    }
+  
+    .headerSearchText {
+      font-size: 14px;
+    }
+  
+    .options {
+      padding: 10px;
+      gap: 10px;
+    }
+  
+    .optionCounterButton {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .btn1 {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+  }
+  
+  /* For Mobile Phones (Screen width below 600px) */
+  @media (max-width: 600px) {
+    .headerSearch {
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+    }
+  
+    .headerSearchItem {
+      width: 100%;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .headerIcon {
+      font-size: 16px; /* Smaller icon size */
+      margin-bottom: 5px;
+    }
+  
+    .headerSearchItem input {
+      width: 100%;
+      height: 40px;
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .headerSearchText {
+      font-size: 12px;
+      padding: 8px 0;
+    }
+  
+    .options {
+      padding: 8px;
+      gap: 8px;
+    }
+  
+    .optionItem {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .optionText {
+      font-size: 14px;
+    }
+  
+    .optionCounterButton {
+      font-size: 12px;
+      padding: 6px;
+    }
+  
+    .optionCounterNumber {
+      font-size: 14px;
+    }
+  
+    .btn1 {
+      width: 100%;
+      padding: 12px;
+      font-size: 14px;
+    }
+  }
+  
