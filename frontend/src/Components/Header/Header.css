@@ -285,3 +285,87 @@
         padding: 4px 6px;
     }
 }
+
+
+@media (max-width: 768px) {
+    .headerSearch {
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+        margin-top: 200px;
+    }
+
+    .headerSearchItem {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .headerSearchItem input {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .headerSearchText {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .options {
+        width: 100%;
+    }
+
+    .optionItem {
+        padding: 10px;
+        justify-content: space-between;
+    }
+
+    .optionText {
+        font-size: 14px;
+    }
+
+    .optionCounterButton {
+        width: 30px;
+        height: 30px;
+    }
+
+    .btn1 {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .headerSearch {
+        margin-top: 150px;
+    }
+
+    .headerSearchItem {
+        margin-bottom: 10px;
+    }
+
+    .headerSearchItem input {
+        font-size: 12px;
+    }
+
+    .headerSearchText {
+        font-size: 12px;
+    }
+
+    .optionItem {
+        padding: 8px;
+    }
+
+    .optionText {
+        font-size: 12px;
+    }
+
+    .btn1 {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
