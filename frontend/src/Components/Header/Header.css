@@ -1,0 +1,245 @@
+/* Full width header */
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* Swiper container */
+.custom-swiper {
+    width: 100%;
+    height: 500px;
+}
+
+.custom-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: #f0f0f0;
+    height: 100%;
+    position: relative;
+}
+
+.swiper-pagination-bullet-active {
+    background: #007bff;
+}
+
+/* Image inside swiper */
+.custom-slide img {
+    width: 100%;
+    height: 500px; 
+    object-fit: cover;
+}
+
+/* Content overlay on swiper */
+.swiper-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+.swiper-content h1 {
+    font-size: 48px;
+    color: orange;
+    margin: 0;
+}
+
+.swiper-content p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Call to action button */
+.cta-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.cta-button:hover {
+    background-color: #28cb3e;
+}
+
+/* Header search box */
+.headerSearch {
+    margin-top: 500px;
+    position: absolute;
+    z-index: 1;
+    width: 60vw;
+    height: 8vh;
+    background-color: white;
+    border: 3px solid #febb02;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-radius: 5px;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Header search item */
+.headerSearchItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerSearchItem input {
+    border: none;
+    outline: none;
+    flex: 1;
+}
+
+/* Search button */
+.headerSearchItem .btn1 {
+    background-color: #28a745;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.headerSearchText {
+    color: lightgray;
+    cursor: pointer;
+}
+
+.headerIcon {
+    color: lightgray;
+}
+
+/* Date picker */
+.date {
+    position: absolute;
+    top: 50px;
+}
+
+/* Options dropdown */
+.options {
+    margin-top: 210px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    z-index: 100;
+    
+}
+
+/* Option item */
+.optionItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px;
+    transition: background-color 0.2s;
+}
+
+.optionItem:hover {
+    background-color: #f1f1f1;
+}
+
+/* Option text */
+.optionText {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Option buttons */
+.optionCounterButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    box-sizing: border-box;
+}
+
+.optionCounterButton:hover {
+    background-color: #0056b3;
+}
+
+/* Option counter number */
+.optionCounterNumber {
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .headerSearch {
+        width: 80vw;
+        margin-top: 300px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .headerSearchItem .btn1 {
+        width: 100%;
+        height: 45px;
+    }
+
+    .headerSearchText, .headerIcon {
+        font-size: 14px;
+    }
+
+    .options {
+        margin-top: 150px;
+        padding: 5px;
+    }
+
+    .optionItem {
+        padding: 6px 8px;
+    }
+
+    .optionText, .optionCounterButton, .optionCounterNumber {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .headerSearch {
+        width: 90vw;
+        margin-top: 200px;
+        padding: 8px;
+    }
+
+    .headerSearchItem .btn1 {
+        width: 100%;
+        height: 40px;
+    }
+
+    .headerSearchText, .headerIcon {
+        font-size: 12px;
+    }
+
+    .options {
+        margin-top: 100px;
+    }
+}

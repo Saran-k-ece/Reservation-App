@@ -1,0 +1,15 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;  
+  }
+  to {
+    opacity: 1;  
+  }
+}

@@ -1,0 +1,147 @@
+.holidays {
+    margin-top: 30px;
+}
+
+.custom-swiper3 {
+    width: 95%;
+    height: 700px;
+}
+
+.custom-slide3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: #f0f0f0;
+    height: 100%;
+    position: relative;
+}
+
+.swiper-pagination-bullet-active {
+    background: #007bff; /* Custom color for active pagination bullets */
+}
+
+.custom-slide3 img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.custom-slide3 p {
+    position: absolute;
+    color: white;
+    font-size: 55px;
+    margin-top: 370px;
+}
+
+.custom-slide3 h4 {
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    margin-top: 480px;
+    text-align: center;
+    animation: fadeIn 5s; 
+}
+
+.custom-slide3 h1 {
+    position: absolute;
+    color: white;
+    font-size: 180px;
+}
+
+.holiday-description {
+    width: 94.8%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+/* Add fadeIn keyframes for the h4 tag animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Holiday Description */
+.holiday-description h1{
+ margin-left: 560px;
+ margin-top: 15px;
+ color: green;
+ font-weight: 500;
+ letter-spacing: 2px;
+
+}
+
+.desc-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 16px;
+    padding: 16px;
+    width: 100%; 
+}
+
+.mySwiper3 {
+    width: 100%; 
+    height: 300px; 
+    border-radius: 8px;
+}
+
+.mySwiper3 .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background: #fff;
+    border: 1px solid #ddd; /* Uniform border */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    position: relative;
+
+}
+
+.swiper-slide img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+}
+
+.mySwiper3 .swiper-slide h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: 60px; /* Adjusted to provide space for the link */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.swiper-slide a {
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    top: 230px; 
+}
+
+.swiper-slide a:hover {
+    background-color: #0056b3;
+}
