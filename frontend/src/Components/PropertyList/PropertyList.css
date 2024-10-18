@@ -145,4 +145,81 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+    .propertyList {
+        grid-template-columns: 1fr;
+        padding: 8px;
+    }
+
+    .propertylist-item {
+        padding: 8px;
+        height: auto;
+    }
+
+    .propertylist-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .propertylist-title h2 {
+        font-size: 18px;
+    }
+
+    .pl-img-content {
+        font-size: 16px;
+    }
+
+    .glimpse h1 {
+        font-size: 32px;
+    }
+
+    .custom-swiper2 {
+        height: 300px;
+    }
+
+    .guest-loves {
+        grid-template-columns: 1fr;
+        padding: 8px;
+    }
+
+    .guest-loves h1 {
+        font-size: 32px;
+    }
+
+    .guest-loves-items {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .hotel-content p {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .propertyList {
+        padding: 4px;
+    }
+
+    .propertylist-title h2 {
+        font-size: 16px;
+    }
+
+    .pl-img-content {
+        font-size: 14px;
+    }
+
+    .glimpse h1 {
+        font-size: 28px;
+    }
+
+    .guest-loves h1 {
+        font-size: 28px;
+    }
+
+    .hotel-content p {
+        font-size: 12px;
+    }
+}
 
