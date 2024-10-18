@@ -66,4 +66,37 @@
     }
   }
   
- 
+  @media (max-width: 480px) {
+    .featured {
+        grid-template-columns: 1fr;
+        padding: 8px;
+    }
+  
+    .featured-items {
+        padding: 16px;
+        height: auto;
+    }
+  
+    .featured-items img {
+        width: 100%;
+        height: auto;
+    }
+  
+    .featured-item-title {
+        font-size: 20px;
+    }
+  
+    .img-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        text-align: center;
+    }
+  
+    .img-content h3 {
+        font-size: 24px;
+        animation: fadeIn 3s;
+    }
+}
