@@ -197,8 +197,42 @@ const List = () => {
         destination: 'Manali',
         img: assets.manali02,
       },
-    
-      
+      {
+        id: 10,
+        name: 'Hilltop Retreat',
+        distance: '3.5 km from Kodaikanal Lake',
+        taxiOp: 'Complimentary shuttle service',
+        subtitle: 'A Tranquil Escape Surrounded by Nature',
+        features: '3 bedrooms, 2 bathrooms, 120m²',
+        cancelOp: 'Free cancellation up to 48 hours before check-in',
+        price: '₹8,500',
+        destination: 'Kodaikanal',
+        img: assets.khotel1
+      },
+      {
+        id: 11,
+        name: 'Mountain View Inn',
+        distance: '1.5 km from Coaker\'s Walk',
+        taxiOp: 'Free airport pickup and drop',
+        subtitle: 'Luxurious Stay in the Heart of the Hills',
+        features: '2 bedrooms, 1 bathroom, 75m²',
+        cancelOp: 'Non-refundable rate available',
+        price: '₹6,500',
+        destination: 'Kodaikanal',
+        img: assets.khotel2
+      },
+      {
+        id: 12,
+        name: 'Scenic Haven Hotel',
+        distance: '4 km from Berijam Lake',
+        taxiOp: 'Discounted taxi services available',
+        subtitle: 'Charming Hotel with Stunning Views',
+        features: '4 bedrooms, 3 bathrooms, 150m²',
+        cancelOp: 'Free cancellation within 24 hours',
+        price: '₹10,000',
+        destination: 'Kodaikanal',
+        img: assets.khotel3
+      }
      
   ];
 

@@ -57,7 +57,10 @@ import ihcl3      from    './ihcl3.jpg'
 import ihcl4      from    './ihcl4.jpg'
 import ihcl5      from    './ihcl5.jpg'
 import ihcl6      from    './ihcl6.jpg'
-
+import khotel1    from     './khotel1.jpg'
+import khotel2    from     './khotel2.jpg'
+import khotel3    from     './khotel3.jpg'
+ 
 
 
 
@@ -125,5 +128,8 @@ export const assets = {
     ihcl4, 
     ihcl5, 
     ihcl6,
+    khotel1,
+    khotel2,
+    khotel3 
    
 }
