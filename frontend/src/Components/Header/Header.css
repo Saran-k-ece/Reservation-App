@@ -191,7 +191,6 @@
     margin: 0 10px;
 }
 
-/* Media Queries for responsiveness */
 @media (max-width: 768px) {
     .headerSearch {
         width: 80vw;
@@ -221,6 +220,18 @@
     .optionText, .optionCounterButton, .optionCounterNumber {
         font-size: 14px;
     }
+
+    .swiper-content h1 {
+        font-size: 36px;
+    }
+
+    .swiper-content p {
+        font-size: 16px;
+    }
+
+    .cta-button {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -241,5 +252,36 @@
 
     .options {
         margin-top: 100px;
+        padding: 5px;
+    }
+
+    .swiper-content h1 {
+        font-size: 28px;
+    }
+
+    .swiper-content p {
+        font-size: 14px;
+    }
+
+    .cta-button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .headerSearchItem {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .headerSearchItem input {
+        width: 100%;
+    }
+
+    .options {
+        width: 90vw;
+    }
+
+    .optionItem {
+        padding: 4px 6px;
     }
 }
