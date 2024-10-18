@@ -103,3 +103,80 @@
     font-size: 16px;
     margin-bottom: 15px;
 }
+
+
+/* For Tablets (Screen width between 600px to 1024px) */
+@media (max-width: 1024px) {
+    .listWrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .listContainer {
+        gap: 15px;
+        margin-top: 30px;
+    }
+
+    .lsTitle {
+        font-size: 22px;
+    }
+
+    .lsSearchItem > input {
+        height: 35px;
+    }
+
+    .listSearch > button {
+        padding: 12px;
+        font-size: 16px;
+    }
+}
+
+/* For Mobile Phones (Screen width below 600px) */
+@media (max-width: 600px) {
+    .listWrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .listContainer {
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 10px;
+    }
+
+    .listSearch {
+        padding: 15px;
+    }
+
+    .lsTitle {
+        font-size: 20px;
+    }
+
+    .lsSearchItem > label {
+        font-size: 12px;
+    }
+
+    .lsSearchItem > input {
+        height: 35px;
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .lsOptionItem {
+        font-size: 12px;
+    }
+
+    .lsSearchOptionInput {
+        width: 50px;
+        padding: 4px;
+    }
+
+    .listSearch > button {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .lab, .lab0 {
+        font-size: 14px;
+    }
+}
