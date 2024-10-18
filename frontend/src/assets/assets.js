@@ -58,7 +58,7 @@ import ihcl4      from    './ihcl4.jpg'
 import ihcl5      from    './ihcl5.jpg'
 import ihcl6      from    './ihcl6.jpg'
 import kodaikanal1 from   './kodaikanal1.jpg'
-import kodaikanal2 from   './kodaikanal2.jpg'
+import kodaikanal2 from   './kodaikanal2.jpg';
 import kodaikanal3 from   './kodaikanal3.jpg'
 import kodaikanal4 from   './kodaikanal4.jpg'
 import kodaikanal5 from   './kodaikanal5.jpg'
