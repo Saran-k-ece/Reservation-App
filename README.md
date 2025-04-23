@@ -21,45 +21,9 @@ A responsive and user-friendly frontend **Hotel Reservation App** built with **R
 - **Swiper.js**
 - **Vercel** (for deployment)
 
-## 📸 Screenshots
 
-_Add some screenshots here for better visuals (optional)._
 
-## 🧑‍💻 Getting Started
 
-Follow these instructions to run the project locally:
 
-### 1. Clone the repository
 
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-2. Navigate to the project directory
-bash
-Copy
-Edit
-cd your-repo-name
-3. Install dependencies
-bash
-Copy
-Edit
-npm install
-4. Start the development server
-bash
-Copy
-Edit
-npm start
-Visit http://localhost:3000 to see the app in action.
 
-📂 Folder Structure (optional)
-pgsql
-Copy
-Edit
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
-│   ├── App.js
-│   └── index.js
-├── package.json
-└── README.md
